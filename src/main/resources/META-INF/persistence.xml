@@ -5,6 +5,7 @@
              version="2.2">
     <persistence-unit name="default">
         <class>entity.Employee</class>
+        <class>entity.Department</class>
         <properties>
             <!-- Instructions on setting up a MySQL Docker Container:
             https://daliashea.com/2021/01/06/configuring-a-jpa-application-with-a-mysql-docker-container/ -->

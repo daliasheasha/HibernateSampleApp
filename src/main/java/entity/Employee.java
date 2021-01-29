@@ -5,7 +5,6 @@ import javax.persistence.*;
 @Entity
 public class Employee {
     @Id
-    @GeneratedValue
     private Long id;
     private EmployeeName name;
     @ManyToOne
